@@ -55,7 +55,7 @@ public class UnionpayModule extends ReactContextBaseJavaModule implements Activi
 
     @ReactMethod
     public void checkInstalled (Callback callback) {
-        Boolean rs = UPPayAssistEx.checkInstalled(getReactApplicationContext());
+        Boolean rs = UPPayAssistEx.checkWalletInstalled(getReactApplicationContext());
         callback.invoke(rs ? "true" : "false");
     }
 
