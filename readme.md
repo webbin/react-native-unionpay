@@ -1,5 +1,9 @@
 # react-native银联插件
 [银联官方](https://open.unionpay.com/ajweb/product/detail?id=3)
+
+- 2018-12-21  
+加入了当前最新的android sdk版本（截至2018年12月）
+
 ## 安装
 ```
 npm i -S react-native-unionpay
